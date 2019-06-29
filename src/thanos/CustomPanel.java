@@ -1,4 +1,4 @@
-package thanos.jar;
+package thanos;
 
 import java.awt.Dimension;
 import java.awt.Graphics;

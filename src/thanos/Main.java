@@ -1,4 +1,4 @@
-package thanos.jar;
+package thanos;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
