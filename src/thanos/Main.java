@@ -122,7 +122,13 @@ public final class Main {
 			allFiles = new ArrayList<>(sortedProbabilities.keySet());
 
 			// Exactly half of the files.
-			int numberOfFilesToBeDeleted = allFiles.size() / 2;
+			int numberOfFiles = allFiles.size();
+			int numberOfFilesToBeDeleted;
+			if (numberOfFiles == 1) {
+				numberOfFilesToBeDeleted = 1;
+			} else {
+				numberOfFilesToBeDeleted = numberOfFiles / 2;
+			}
 
 			for (int i = 0; i < numberOfFilesToBeDeleted; i++) {
 				// Check if Thanos is inside the crowd.
