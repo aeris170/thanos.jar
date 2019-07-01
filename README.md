@@ -12,7 +12,7 @@ Download the thanos.jar file.
 
 ## Usage
 
-- Run the file, press snap fingers.
+- Put the file to the directory you want to snap fingers in, run the file, press snap fingers.
 
 ## Technical Details
 
