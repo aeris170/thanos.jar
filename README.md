@@ -22,5 +22,8 @@ Download the thanos.jar file.
 
 - Exactly half of the files are deleted. Each file is given a `chance` at random and either the top 50% of the files or bottom 50% of files are chosen to be deleted.
 
+## Dependencies
+  * [JLine 2.11](https://github.com/jline/jline2)
+
 ## Screenshots
 ![thanos_1](https://user-images.githubusercontent.com/25724155/60385503-8d6acc00-9a92-11e9-82d5-c8207d7f34e0.png)
