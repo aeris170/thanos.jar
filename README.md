@@ -8,7 +8,7 @@ You are lucky though, he can only carry out destruction in the directory in he i
 
 ## Install
 
-Download the thanos.jar file.
+Download the [thanos.jar](https://github.com/aeris170/thanos.jar/raw/master/thanos.jar) file.
 
 ## Usage
 
