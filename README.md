@@ -4,7 +4,7 @@
 Thanos has now arrived on your PC and he will bring havoc to your files.
 He will wipe out exactly half of your files when he snaps fingers wearing the infinity gauntlet.
 
-You are lucky though, he can only carry out destruction in the directory in he is in.
+You are lucky though, he can only carry out destruction in the directory he is in.
 
 ## Install
 
@@ -12,7 +12,8 @@ Download the [thanos.jar](https://github.com/aeris170/thanos.jar/raw/master/than
 
 ## Usage
 
-- Read the [DISCLAIMER](https://github.com/aeris170/thanos.jar/blob/master/DISCLAIMER) first! Put the file to the directory you want to snap fingers in, run the file, press snap fingers.
+- Read the [DISCLAIMER](https://github.com/aeris170/thanos.jar/blob/master/DISCLAIMER) first!
+- Put the file to the directory you want to snap fingers in, run the file, press snap fingers.
 
 ## Technical Details
 
