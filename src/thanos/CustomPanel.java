@@ -15,7 +15,7 @@ public class CustomPanel extends JPanel {
 
 	private static final long serialVersionUID = 8037082827058855295L;
 
-	private BufferedImage image;
+	private transient BufferedImage image;
 	private int w, h;
 
 	public CustomPanel() {

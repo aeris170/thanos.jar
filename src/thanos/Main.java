@@ -9,6 +9,8 @@ import java.awt.GraphicsEnvironment;
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -54,8 +56,8 @@ public final class Main {
 
 			// Get Jar name and directory.
 			jarDir = new File(Main.class.getProtectionDomain().getCodeSource().getLocation().toURI()).getPath();
-			jarName = jarDir.substring(jarDir.lastIndexOf("\\") + 1);
-			jarDir = jarDir.substring(0, jarDir.lastIndexOf("\\"));
+			jarName = jarDir.substring(jarDir.lastIndexOf('\\') + 1);
+			jarDir = jarDir.substring(0, jarDir.lastIndexOf('\\'));
 
 			// Flavor text.
 			for (int i = 0; i < commandLineWidth; i++) {
@@ -160,7 +162,11 @@ public final class Main {
 			for (int i = 0; i < numberOfFilesToBeDeleted; i++) {
 				File fileToBeDeleted = allFiles.get(i);
 				System.out.println(fileToBeDeleted.getName());
-				fileToBeDeleted.delete();
+				try {
+					Files.delete(Paths.get(fileToBeDeleted.getAbsolutePath()));
+				} catch (IOException ex) {
+					ex.printStackTrace();
+				}
 			}
 
 			System.out.println();
