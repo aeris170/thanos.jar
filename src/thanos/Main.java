@@ -174,7 +174,7 @@ public final class Main {
 			System.out.println("-Did you do it?");
 			System.out.println("-Yes.");
 			System.out.println("-What did it cost?");
-			System.out.println("Everything...");
+			System.out.println("-Everything...");
 		});
 
 		// Add buttons to wrapper, position them and resize them. Swing API code below,
