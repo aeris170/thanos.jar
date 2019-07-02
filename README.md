@@ -12,7 +12,7 @@ Download the [thanos.jar](https://github.com/aeris170/thanos.jar/raw/master/than
 
 ## Usage
 
-- Read the DISCLAIMER first! Put the file to the directory you want to snap fingers in, run the file, press snap fingers.
+- Read the (DISCLAIMER)[https://github.com/aeris170/thanos.jar/blob/master/DISCLAIMER] first! Put the file to the directory you want to snap fingers in, run the file, press snap fingers.
 
 ## Technical Details
 
