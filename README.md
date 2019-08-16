@@ -1,6 +1,8 @@
 # thanos.jar
 **Inspired by [thanos.js](https://github.com/anandundavia/thanos-js)**
 
+![social](https://repository-images.githubusercontent.com/194413233/f5bdd700-9c65-11e9-8895-90c3741cf3d1)
+
 Thanos has now arrived on your PC and he will bring havoc to your files.
 He will wipe out exactly half of your files when he snaps fingers wearing the infinity gauntlet.
 
